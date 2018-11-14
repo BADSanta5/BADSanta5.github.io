@@ -1,6 +1,10 @@
+
 body {
- background-image: url(photo/13.jpg);
+ background-image: url(photo/fon.jpg);
+ background-repeat: repeat-x;
+ background-attachment: fixed;
  }
+ 
  #pervo {
 	 color: red;
 	 font-family: cursive;
