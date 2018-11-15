@@ -8,4 +8,10 @@ body {
  #pervo {
 	 color: red;
 	 font-family: cursive;
- }
+ } 
+#header {
+    height: 200px;
+    background-image: url(photo/shapka.png);
+    
+    
+}
