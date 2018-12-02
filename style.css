@@ -1,17 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*НАЧАЛО*/
+
+
+/*ОБЩЕЕ1*/
 
 body {
- background-image: url(photo/fon.jpg);
- background-repeat: repeat-x;
- background-attachment: fixed;
- }
+    background-color: #fff;
+    background-image: url(photo/fon3.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+/*ОБЩЕЕ2*/
+
+#global {
+    width: 960px;
+    margin: 0 auto;
  
- #pervo {
-	 color: red;
-	 font-family: cursive;
- } 
-#header {
-    height: 200px;
-    background-image: url(photo/shapka.jpg);
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+/*НАВИГАЦИЯ САЙТА*/
+
+
+#navigation {
+    width: 840px;
+    float: right;
+    height: 65px;
+    background-color: rgba(51, 51, 51, 0.59);
+    background-image: ;
+    box-shadow: inset 0 0 20px rgba(3,4,5,1);
+    
+}
+
+/*НАВИГАЦИЯ САЙТА2*/
+
+#navigation ul li {
+    float: left;  
+    position: relative;
+}
+
+/*НАВИГАЦИЯ САЙТА3*/
+
+#navigation ul li a {
+    color: #fff;
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 65px;
+    display: block;
+    height: 65px;
+    text-decoration: none;
+        
+}
+
+
+
+/*НАВИГАЦИЯ САЙТА4 Hover*/
+#navigation ul li a:hover {
+    background: rgba(59, 89, 152, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ВЫПАДАЮЩЕЕ МЕНЮ ГОРИЗОНТАЛЬНОЙ НАВИГАЦИИ*/
+
+#navigation .dropdown {
+    position: absolute;
+    top: 100%;
+    background: rgba(51, 51, 51, 0.59);
+    width: 200px;
+    box-shadow: inset 0 0 5px rgba(3,4,5,1);
+    box-shadow: 0 0 5px rgba(3,4,5,1);
+    display: none;
+    
+    
+}
+
+/*ВЫПАДАЮЩЕЕ МЕНЮ ГОРИЗОНТАЛЬНОЙ НАВИГАЦИИ 2*/
+
+#navigation .dropdown li {
+ width: 100%; 
+ height: 45px;
+}
+
+/*ВЫПАДАЮЩЕЕ МЕНЮ ГОРИЗОНТАЛЬНОЙ НАВИГАЦИИ 3*/
+
+#navigation .dropdown li a {
+    line-height: 45px;
+    height: 45px;
+    
+    
+}
+
+/*ВЫПАДАЮЩЕЕ МЕНЮ ГОРИЗОНТАЛЬНОЙ НАВИГАЦИИ ЗАВЕРШЕНИЕ*/
+
+#navigation li:hover .dropdown {
+    display: block;
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*КОНТЕНТ*/
+}
+
+#content {
+    background-color: rgba(123, 123, 123, 0.39);
+    height: 2000px;
+    box-shadow: inset 0 0 20px rgba(3,4,5,1);
+  
+}
+
+
+
+
+
+.logo {
+    margin: 0 auto;
 }
