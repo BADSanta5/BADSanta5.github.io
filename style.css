@@ -55,6 +55,8 @@ table {
 body {
     background-color: #fff;
     background-image: url(photo/fon3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
 }
