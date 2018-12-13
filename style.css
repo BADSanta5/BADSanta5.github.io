@@ -13,6 +13,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*НАЧАЛО*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -62,7 +77,70 @@ table {
 	border-spacing: 0;
 }
 
+
+
+/*Micro clearfix*/
+
+
+#content::before, #content::after {
+  content: "";
+  display: table;
+}
+#content::after {
+  clear: both;
+}
+#content {
+  zoom: 1;
+}
+
+/*Micro clearfix*/
+
 /*НАЧАЛО*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*ОБЩЕЕ1*/
@@ -202,31 +280,44 @@ body {
     
     
     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-    
-    /*КОНТЕНТbackground-color: rgba(123, 123, 123, 0.39);
-    box-shadow: inset 0 0 20px rgba(3,4,5,1);*/
+    /*КОНТЕНТ*/
 #content {
 }
 
 
-
-
-/*Micro clearfix*/
-
-
-#content::before, #content::after {
-  content: "";
-  display: table;
-}
-#content::after {
-  clear: both;
-}
-#content {
-  zoom: 1;
-}
-
-/*Micro clearfix*/
 
 
 
@@ -235,9 +326,10 @@ body {
 
 #article {
     
-    width: 740px;  
+    width: 720px;  
     padding-right: 20px;
     padding-top: 20px;
+    padding-left: 20px;
     float: left;
     
     background-color: rgba(123, 123, 123, 0.39);
@@ -282,4 +374,62 @@ body {
 .foter-2 {
     padding-left: 20px;
     padding-top: 20px;
+}
+
+#fixed {
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+}
+
+.pseudo-element::before,
+.pseudo-element::after
+{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#text {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.source {
+    color: red;
+    font-size: 24px;
+
+    
+}
+
+.first-letter::first-letter {
+    color: red;
+    font-size: 48px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#text2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+::selection {
+    background: black;
+    
 }
